@@ -13,6 +13,7 @@ kernel/arch/arm64/crypto/poly1305-neon.ko
 kernel/kernel/configs.ko
 kernel/mm/oplus_bsp_uxmem_opt.ko
 kernel/mm/oplus_bsp_dynamic_readahead.ko
+kernel/mm/fileprotect.ko
 kernel/fs/binfmt_misc.ko
 kernel/fs/binfmt_script.ko
 kernel/fs/binfmt_elf.ko
@@ -218,6 +219,7 @@ kernel/drivers/clk/hisilicon/crg-hi3798cv200.ko
 kernel/drivers/dma/virt-dma.ko
 kernel/drivers/soc/qcom/qcom-geni-se.ko
 kernel/drivers/soc/sunxi/sunxi_sram.ko
+kernel/drivers/soc/oplus/oplus_resctrl/oplus_resctrl.ko
 kernel/drivers/soc/oplus/storage/common/io_metrics/oplus_bsp_storage_io_metrics.ko
 kernel/drivers/soc/oplus/storage/common/fmonitor/oplus_file_monitor.ko
 kernel/drivers/virtio/virtio.ko

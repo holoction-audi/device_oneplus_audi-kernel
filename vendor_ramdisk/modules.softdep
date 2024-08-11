@@ -7,6 +7,7 @@ softdep qcom_pmu_lib pre: qcom_scmi_client
 softdep msm_performance pre: qcom_scmi_client
 softdep ipclite pre: qcom_hwspinlock
 softdep dynpf_scmi pre: qcom_scmi_client
+softdep si_haptic pre: haptic aw8697
 softdep qsee_ipc_irq_bridge pre: qcom_ipcc
 softdep smem pre: qcom_hwspinlock
 softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
@@ -14,4 +15,5 @@ softdep pinctrl_msm pre: qcom-pdc
 softdep qcom_scmi_client pre: qcom_scmi_vendor
 softdep leds_qti_tri_led pre: pwm-qti-lpg
 softdep memlat pre: qcom_scmi_client
+softdep haptic pre: aw8697
 softdep pinctrl_cliffs pre: qcom_tlmm_vm_irqchip
